@@ -3,35 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Amharic Text to Speech and Speech to Text</title>
   </head>
   <body>
     <header>
-      <div>
+      <div class="logo">
         <img src="images/fid-logo.svg" alt="fid-logo" />
       </div>
       <div>
         <ul>
-          <li>Home</li>
-          <li>Text to Speech</li>
-          <li>Speech Recognition</li>
-          <li>About</li>
+          <li><a href="index.html" class="links" id="active"> Home</a></li>
+          <li><a href="TTS.html" class="links"> Text to Speech</a></li>
+          <li><a href="SR.html" class="links">Speech Recognition</a></li>
+          <li><a href="about.html" class="links">About</a></li>
         </ul>
       </div>
     </header>
-    <section class="left">
-        <h1> Welcome to Fid </h1>
-<h3>Text to speech and Speech recognition </h3>
-<p>fid amharic text to speech can speech amharic from any text<br>
-speech recognition can recognize speech(convert any speech/audio <br>
- into text)
-</h3>
-<br>
- <button> Learn More</button>
-    </section>
     <section>
-        <img src="images/home_d.png" alt="">
+      <div class="left">
+        <h1 class="title1">Welcome to Fid</h1>
+        <h2 class="title2">Text to speech and Speech recognition</h2>
+        <p class="txt">
+          fid amharic text to speech can speech amharic from any text<br />
+          speech recognition can recognize speech(convert any speech/audio
+          <br />
+          into text)
+        </p>
+        <br />
+        <button>Learn More</button>
+      </div>
+      <div class="right">
+        <img src="images/home_d.png" alt="fid image" class="rightimg" />
+      </div>
     </section>
   </body>
 </html>
