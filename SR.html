@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="SR.CSS" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Amharic Text to Speech and Speech to Texts</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/fid-logo.svg" alt="fid-logo" />
+      </div>
+      <div>
+        <ul>
+          <li><a href="index.html" class="links"> Home</a></li>
+          <li><a href="TTS.html" class="links"> Text to Speech</a></li>
+          <li>
+            <a href="SR.html" class="links" id="active">Speech Recognition</a>
+          </li>
+          <li><a href="about.html" class="links">About</a></li>
+        </ul>
+      </div>
+    </header>
+    <section>
+      <div class="left">
+        <img src="images/record.png" alt="record" class="recorder" />
+        <h4>
+          Tap to <br />
+          Start
+        </h4>
+
+        <button class="upload" style="font-size: 14.5px">
+          <i class="fa fa-upload"></i> upload file
+        </button>
+      </div>
+      <div class="right">
+        <textarea
+          name=""
+          id="texthere"
+          cols="30"
+          rows="10"
+          placeholder="speech text will be here"
+        ></textarea>
+        <br />
+        <img src="images/clipboard.png" alt="copy image" class="copy" />
+        <img src="images/download.png" alt="" class="download" />
+      </div>
+    </section>
+  </body>
+</html>
